@@ -3,8 +3,8 @@ import styled from 'styled-components'
 const Widget = styled.div `
   margin-top: 24px;
   margin-bottom: 24px;
-  color: ${({ theme }) => theme.colors.contrastText};
-  border: 1px solid ${({ theme }) => theme.colors.mainBg};
+  color: ${({ theme }) => theme.colors.mainText};
+  border: 1px solid ;
   background-color: ${({ theme }) => {
     return theme.colors.primary;
   }};
@@ -29,7 +29,7 @@ Widget.Header = styled.header `
   align-items: center;
   padding: 18px 32px;
   background-color:${({ theme }) => {
-    return theme.colors.mainBg;
+    return theme.colors.contrastText;
   }};
   
   * {

@@ -1,0 +1,81 @@
+{
+    "cardapio": [
+        
+        {
+            "num":"1",
+            "image": "/images/refeicoes/1.jpg",
+            "title": "Arroz Integral + Estrogonofe de Berinjela e cogumelos Frescos",
+            "description": "",
+            "ingredients": "Arroz integral, alho, bechamel (aveia, agua, levedura), molho sugo(tomate, cebola, manjericão, alho), berinjela, Cogumelos Frescos",
+            "Opção": [
+            "250ml",
+            "500ml"
+            ]
+        },
+        {
+            "num":"2",
+            "image": "/images/refeicoes/2.jpg",
+            "title": "2) Lazanha de Berinjela e Abobrinha recheada com Soja e Cogumelos ao molho bechamel e sugo",
+            "description": "",
+            "ingredients": "Abobrinha, berinjela, soja, cogumelos frescos, bechamel (aveia, agua, levedura), molho sugo(tomate, cebola, manjericão, alho)",
+            "Opção": [
+            "500ml"
+            ]
+        },
+        {
+            "num":"3",
+            "image": "/images/refeicoes/3.jpg",
+            "title": "Saladinha de Quinoa",
+            "description": "",
+            "ingredients": "Quinoa mixta, maça, gengibre, alho poró, ervilha frescas, milho in natura cozido, pimentão, cheiro verde, amendoin",
+            "Opção": [
+            "500ml"
+            ]
+        },
+        {
+            "num":"4",
+            "image": "/images/refeicoes/4.jpg",
+            "title": "Quibe de abóbora com cebola caramelizada + Caponata",
+            "description": "",
+            "ingredients": "Trigo de Quibe, abóbora, cebola, alho, cheiro verde, cebola caramelizada, melado de cana",
+            "Opção": [
+            "500ml"
+            ]
+        },
+        {
+            "num":"5",
+            "image": "/images/refeicoes/4.jpg",
+            "title": "Escondidinho de Cogumelo e Soja",
+            "description": "",
+            "ingredients": "Mandioca, alho, leite de coco, soja, cogumelos",
+            "Opção": [
+            "500ml"
+            ]
+        }
+        
+    ],
+    "sobremesas": [
+        
+        {
+            "num":"01",
+            "image": "/images/sobremesas/1.jpg",
+            "title": "Brownie de Doce de leite de coco",
+            "description": "",
+            "ingredients": "",
+            "Opção": [
+            "250ml",
+            "500ml"
+            ]
+        },
+        {
+            "num":"2",
+            "image": "/images/sobremesas/2.jpg",
+            "title": "Bolo Inglês de Chocolate",
+            "description": "",
+            "ingredients": "",
+            "Opção": [
+            "500ml"
+            ]
+        }
+    ]
+}

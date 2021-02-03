@@ -1,72 +1,20 @@
 {
-    "bg": "/bg.jpg",
-    "title": "Fast! Frozen! Fit!",
-    "slogan": "Sempre uma opção saudável pra você!",
-    "description": "",
-    "cardapio": [
-      {
-        "num":"1",
-        "image": "/images/cardapio/1.jpg",
-        "title": "Arroz Integral + Estrogonofe de Berinjela e cogumelos Frescos",
-        "description": "",
-        "ingredients": "Arroz integral, alho, bechamel (aveia, agua, levedura), molho sugo(tomate, cebola, manjericão, alho), berinjela, Cogumelos Frescos",
-        "Opção": [
-          "250ml",
-          "500ml"
-        ]
-      },
-      {
-        "num":"2",
-        "image": "/images/cardapio/2.jpg",
-        "title": "2) Lazanha de Berinjela e Abobrinha recheada com Soja e Cogumelos ao molho bechamel e sugo",
-        "description": "",
-        "ingredients": "Abobrinha, berinjela, soja, cogumelos frescos, bechamel (aveia, agua, levedura), molho sugo(tomate, cebola, manjericão, alho)",
-        "Opção": [
-          "500ml"
-        ]
-      },
-      {
-        "num":"3",
-        "image": "/images/cardapio/3.jpg",
-        "title": "Saladinha de Quinoa",
-        "description": "",
-        "ingredients": "Quinoa mixta, maça, gengibre, alho poró, ervilha frescas, milho in natura cozido, pimentão, cheiro verde, amendoin",
-        "Opção": [
-          "500ml"
-        ]
-      },
-      
-      {
-        "num":"4",
-        "image": "/images/cardapio/4.jpg",
-        "title": "Quibe de abóbora com cebola caramelizada + Caponata",
-        "description": "",
-        "ingredients": "Trigo de Quibe, abóbora, cebola, alho, cheiro verde, cebola caramelizada, melado de cana",
-        "Opção": [
-          "500ml"
-        ]
-      },
-      {
-        "num":"5",
-        "image": "/images/cardapio/4.jpg",
-        "title": "Escondidinho de Cogumelo e Soja",
-        "description": "",
-        "ingredients": "Mandioca, alho, leite de coco, soja, cogumelos",
-        "Opção": [
-          "500ml"
-        ]
-      }
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#AA0000",
-        "secondary": "#ff00cc",
-        "mainBg": "#f62d13",
-        "contrastText": "#ffcc00",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px",
-      "fontSize": "10px"
-    }
+  "bg": "/images/page/bg.jpg",
+  "title": "Fast! Frozen! Fit!",
+  "slogan": "Sempre uma opção saudável pra você!",
+  "description": "",    
+  "theme": {
+    "bg": "/images/page/bg.jpg",
+    "colors": {
+      "primary": "#AA0000",
+      "secondary": "#ff00cc",
+      "mainBg": "#ffdddd",
+      "contrastText": "#ffffff",
+      "mainText": "#000",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px",
+    "fontSize": "16px"
   }
+}

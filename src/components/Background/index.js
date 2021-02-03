@@ -5,7 +5,7 @@ const QuizBackground = styled.div`
   background-repeat:no-repeat;
   background-size: cover;
   background-position: right;
-  background-image: url('/bg.jpg');
+  background-image: url(${({ theme }) => theme.bg});
 
   background-color: ${({ theme }) => theme.colors.mainBg};
   flex: 1;
@@ -15,14 +15,14 @@ const QuizBackground = styled.div`
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH"; */
-  @media screen and (max-width: 880px) {
+  @media screen and (max-width: 600px) {
     background-repeat:no-repeat;
     background-size: cover;
     background-position: top;
     background-color:${({ theme }) => theme.colors.mainBg};
     background-image:
         /* linear-gradient(transparent, ${({ theme }) => theme.colors.mainBg}), */
-        url('/bg.jpg');
+        url(${({ theme }) => theme.bg});
     /* &:after {
       content: "";
       background-size: cover;

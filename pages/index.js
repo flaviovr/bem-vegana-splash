@@ -3,37 +3,54 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 import config from '../config.json';
+import cardapio from '../cardapio.json';
 
 import Widget from '../src/components/Widget';
 import Logo from '../src/components/Logo';
-import QuizBackground from '../src/components/QuizBackground';
+import Background from '../src/components/Background';
 // import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GitHubCorner';
-import QuizContainer from '../src/components/QuizContainer';
+import Container from '../src/components/Container';
 
 export default function Home() {
 
   return (   
-    <QuizBackground backgroundImage={config.bg}>
+    <Background backgroundImage={config.bg}>
       <Head>
         <title>{config.title}</title>
         {/* <meta property='og:image' content='https://quizreact.vercel.app/{config.bg}'></meta> */}
       </Head>
     
-      <QuizContainer>
+      <Container >
         
         <Logo className='teste' mode='center'/>
+        
+        <h1>Refeições</h1>
+        {cardapio.cardapio.map((item)=>{
+          return (
+            <Widget key={item.num}>
+              <Widget.Header>
+                <h1>{item.title}</h1>
+                <p>{item.ingredients}</p>  
+              </Widget.Header>
+            </Widget>
+          ) 
+        })
+        }
+        <h1>Sobremesas</h1>
+        {cardapio.sobremesas.map((item)=>{
+          return (
+            <Widget key={item.num}>
+              <Widget.Header>
+                <h1>{item.title}</h1>
+                <p>{item.ingredients}</p>  
+              </Widget.Header>
+            </Widget>
+          ) 
+        })
+        }
+      </Container>
 
-        <Widget>
-          <Widget.Header>
-            <h1>{config.title}</h1>
-            <h2>{config.description}</h2>  
-          </Widget.Header>
-        </Widget>
-
-      </QuizContainer>
-
-    </QuizBackground>
+    </Background>
   )
 
 }

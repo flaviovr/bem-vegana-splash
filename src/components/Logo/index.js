@@ -19,7 +19,7 @@ L.propTypes = {
 };
 
 const Logo = styled(L)`
-  margin: 40px auto;
+  margin: 15px auto;
   max-width:300px;
   display: block;
   @media screen and (max-width: 500px) {
