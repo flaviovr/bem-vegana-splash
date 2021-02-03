@@ -8,13 +8,13 @@
     "colors": {
       "primary": "#AA0000",
       "secondary": "#ff00cc",
-      "mainBg": "#ffdddd",
+      "mainBg": "##fff",
       "contrastText": "#ffffff",
       "mainText": "#000",
       "wrong": "#FF5722",
       "success": "#4CAF50"
     },
-    "borderRadius": "4px",
+    "borderRadius": "12px",
     "fontSize": "16px"
   }
 }

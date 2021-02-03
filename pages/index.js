@@ -1,6 +1,7 @@
 import styled from 'styled-components';
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 
 import config from '../config.json';
 import cardapio from '../cardapio.json';
@@ -23,15 +24,24 @@ export default function Home() {
       <Container >
         
         <Logo className='teste' mode='center'/>
-        
+        <p>Refeição sustentável em todos os sentidos. Leve, cheia de fibras, proteínas vegetais, tudo isso preparado com óleo de coco ou azeite e temperos frescos. 
+O mínimo de calorias e gorduras com o máximo de sabor.
+Tudo prontinho e congelado em embalagens apropriadas para microondas, é só aquecer.</p>
         <h1>Refeições</h1>
         {cardapio.cardapio.map((item)=>{
           return (
             <Widget key={item.num}>
-              <Widget.Header>
+                <div className='bloco'>
+                {item.num}
+                </div>
+                <img
+                  alt={item.title}
+                  src={item.image}                  
+                />
+                <Widget.Content>
                 <h1>{item.title}</h1>
-                <p>{item.ingredients}</p>  
-              </Widget.Header>
+                <p>{item.ingredients}</p>
+                </Widget.Content>
             </Widget>
           ) 
         })
@@ -40,10 +50,17 @@ export default function Home() {
         {cardapio.sobremesas.map((item)=>{
           return (
             <Widget key={item.num}>
-              <Widget.Header>
+                <div className='bloco'>
+                {item.num}
+                </div>
+                <img
+                  alt={item.title}
+                  src={item.image}                  
+                />
+                <Widget.Content>
                 <h1>{item.title}</h1>
-                <p>{item.ingredients}</p>  
-              </Widget.Header>
+                <p>{item.ingredients}</p>
+                </Widget.Content>
             </Widget>
           ) 
         })

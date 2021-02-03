@@ -1,44 +1,47 @@
 import styled from 'styled-components'
 
 const Widget = styled.div `
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin: 15px 0px;
+  padding:0px;
+  position:relative;
   color: ${({ theme }) => theme.colors.mainText};
-  border: 1px solid ;
+  display:flex;
   background-color: ${({ theme }) => {
-    return theme.colors.primary;
+    return theme.colors.contrastText;
   }};
-  border-radius: 4px;
-  overflow: hidden;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  
   h1, h2, h3 {
-    font-size: 16px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0;
   }
-  p {
-    font-size: 14px;
-    font-weight: 400;
+   p {
+    font-size: 18px;
+    font-weight: 300;
     line-height: 1;
   }
-`;
 
-Widget.Header = styled.header `
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 18px 32px;
-  background-color:${({ theme }) => {
-    return theme.colors.contrastText;
-  }};
-  
-  * {
-    margin: 0;
+  img {
+    width:40%;
+    border-radius: ${({ theme }) => theme.borderRadius} 0px  0px ${({ theme }) => theme.borderRadius} ;
   }
+  .bloco{
+    background-color:#fff;
+    padding:5px 10px;
+    line-height:1;
+    top:5px;left:5px;
+    position:absolute;
+    border-radius: ${({ theme }) => theme.borderRadius};
+    font-weight:700;
+    font-size:16px;
+  }
+  
 `;
 
 Widget.Content = styled.div `
-  padding: 24px 32px 32px 32px;
+  padding: 25px;
   & > *:first-child {
     margin-top: 0;
   }

@@ -4,7 +4,7 @@ const QuizBackground = styled.div`
   width: 100%;
   background-repeat:no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: top center ;
   background-image: url(${({ theme }) => theme.bg});
 
   background-color: ${({ theme }) => theme.colors.mainBg};

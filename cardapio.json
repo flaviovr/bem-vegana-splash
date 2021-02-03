@@ -15,7 +15,7 @@
         {
             "num":"2",
             "image": "/images/refeicoes/2.jpg",
-            "title": "2) Lazanha de Berinjela e Abobrinha recheada com Soja e Cogumelos ao molho bechamel e sugo",
+            "title": "Lasanha de Berinjela e Abobrinha recheada com Soja e Cogumelos ao molho bechamel e sugo",
             "description": "",
             "ingredients": "Abobrinha, berinjela, soja, cogumelos frescos, bechamel (aveia, agua, levedura), molho sugo(tomate, cebola, manjericão, alho)",
             "Opção": [
@@ -44,7 +44,7 @@
         },
         {
             "num":"5",
-            "image": "/images/refeicoes/4.jpg",
+            "image": "/images/refeicoes/5.jpg",
             "title": "Escondidinho de Cogumelo e Soja",
             "description": "",
             "ingredients": "Mandioca, alho, leite de coco, soja, cogumelos",
@@ -70,7 +70,7 @@
         {
             "num":"2",
             "image": "/images/sobremesas/2.jpg",
-            "title": "Bolo Inglês de Chocolate",
+            "title": "Bolo Inglês",
             "description": "",
             "ingredients": "",
             "Opção": [
