@@ -31,8 +31,9 @@ function Logo() {
 }
 
 const StylesPar = styled.p`
-  font-weight:500;
+  font-weight:700;
     font-family:"Roboto Slab";
+    font-size:18px;
     clear:both;
     padding:25px 0px;
 `
