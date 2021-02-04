@@ -44,7 +44,7 @@ const LogoContainer = styled.div`
     float:left;
     margin: 0 auto;
     width:300px;
-    /* @media screen and (max-width: 720px) {
+    /* @media screen and (max-width: 820px) {
       width:200px;
     } */
   }

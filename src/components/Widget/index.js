@@ -40,7 +40,7 @@ const Widget = styled.div `
   img {
     width:40%;
     border-radius: ${({ theme }) => theme.borderRadius} 0 0 ${({ theme }) => theme.borderRadius}  ;
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 820px) {
       border-radius: ${({ theme }) => theme.borderRadius}  ${({ theme }) => theme.borderRadius} 0 0;
       width:100%;
     }
@@ -60,7 +60,7 @@ const Widget = styled.div `
 
 Widget.Content = styled.div `
   
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 820px) {
     width:100%;
     display:block;
     }

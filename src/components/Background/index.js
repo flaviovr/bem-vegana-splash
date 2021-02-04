@@ -15,7 +15,7 @@ const QuizBackground = styled.div`
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH"; */
-  @media screen and (max-width: 720) {
+  @media screen and (max-width: 820px) {
     background-repeat:no-repeat;
     background-size: fixed;
     background-position:  right;
