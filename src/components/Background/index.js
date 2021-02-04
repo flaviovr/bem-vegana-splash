@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const QuizBackground = styled.div`
   width: 100%;
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size: fixed;
   background-position: top center ;
   background-image: url(${({ theme }) => theme.bg});
 
