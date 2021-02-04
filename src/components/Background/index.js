@@ -15,10 +15,10 @@ const QuizBackground = styled.div`
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH"; */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 720) {
     background-repeat:no-repeat;
-    background-size: cover;
-    background-position: top;
+    background-size: fixed;
+    background-position:  right;
     background-color:${({ theme }) => theme.colors.mainBg};
     background-image:
         /* linear-gradient(transparent, ${({ theme }) => theme.colors.mainBg}), */

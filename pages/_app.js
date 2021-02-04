@@ -12,12 +12,16 @@ const GlobalStyle = createGlobalStyle`
     /* New styles */
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    // Deixa branco no começo
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:${({ theme }) => theme.fontSize};
+   
     color: ${({ theme }) => theme.colors.mainText};
   }
   html, body {
     min-height: 100vh;
+  }
+  p {
+    margin:0;padding:0;
   }
   #__next {
     flex: 1;

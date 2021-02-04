@@ -4,9 +4,9 @@
         {
             "num":"1",
             "image": "/images/refeicoes/1.jpg",
-            "title": "Arroz Integral + Estrogonofe de Berinjela e cogumelos Frescos",
-            "description": "",
-            "ingredients": "Arroz integral, alho, bechamel (aveia, agua, levedura), molho sugo(tomate, cebola, manjericão, alho), berinjela, Cogumelos Frescos",
+            "title": "Estrogonofe de Cogumelos frescos com berinjela",
+            "description": "Acompanha arroz integral",
+            "ingredients": "Cogumelos fresquinhos e escalopinhos de berinjela ao shoyo refogados com molho de tomate fresco e bechamel de aveia.",
             "Opção": [
             "250ml",
             "500ml"
@@ -15,9 +15,9 @@
         {
             "num":"2",
             "image": "/images/refeicoes/2.jpg",
-            "title": "Lasanha de Berinjela e Abobrinha recheada com Soja e Cogumelos ao molho bechamel e sugo",
+            "title": "Lasanha de Berinjela e Abobrinha recheada com Cogumelos e Soja ao molho bechamel e sugo",
             "description": "",
-            "ingredients": "Abobrinha, berinjela, soja, cogumelos frescos, bechamel (aveia, agua, levedura), molho sugo(tomate, cebola, manjericão, alho)",
+            "ingredients": "Deliciosas camadas abobrinha e berinjela recheadas com cogumelos frescos, proteína de soja, molho de tomate fresco, bechamel de aveia e parmesão de nuts.",
             "Opção": [
             "500ml"
             ]
@@ -27,7 +27,7 @@
             "image": "/images/refeicoes/3.jpg",
             "title": "Saladinha de Quinoa",
             "description": "",
-            "ingredients": "Quinoa mixta, maça, gengibre, alho poró, ervilha frescas, milho in natura cozido, pimentão, cheiro verde, amendoin",
+            "ingredients": "Uma salada completa de quinoa mista com:  maçã, gengibre, alho poró, ervilha frescas, milho in natura cozido, pimentão, cheiro verde e parmesão de nuts.",
             "Opção": [
             "500ml"
             ]
@@ -35,9 +35,9 @@
         {
             "num":"4",
             "image": "/images/refeicoes/4.jpg",
-            "title": "Quibe de abóbora com cebola caramelizada + Caponata",
+            "title": "Quibe de abóbora recheado com cebola caramelizada",
             "description": "",
-            "ingredients": "Trigo de Quibe, abóbora, cebola, alho, cheiro verde, cebola caramelizada, melado de cana",
+            "ingredients": "Quibe de abobora recheado com nossa receita especial de cebola caramelizada. Acompanha caponata de berinjela, abobrinha e tomates.",
             "Opção": [
             "500ml"
             ]
@@ -45,9 +45,9 @@
         {
             "num":"5",
             "image": "/images/refeicoes/5.jpg",
-            "title": "Escondidinho de Cogumelo e Soja",
+            "title": "Escondidinho de Cogumelos Frescos e Soja",
             "description": "",
-            "ingredients": "Mandioca, alho, leite de coco, soja, cogumelos",
+            "ingredients": "Purê de aipim com leite de coco pra ficar mais cremosinho recheado com cogumelos frescos e proteína de soja ao molho de tomate.",
             "Opção": [
             "500ml"
             ]
@@ -56,23 +56,13 @@
     ],
     "sobremesas": [
         
-        {
-            "num":"01",
-            "image": "/images/sobremesas/1.jpg",
-            "title": "Brownie de Doce de leite de coco",
-            "description": "",
-            "ingredients": "",
-            "Opção": [
-            "250ml",
-            "500ml"
-            ]
-        },
+       
         {
             "num":"2",
             "image": "/images/sobremesas/2.jpg",
-            "title": "Bolo Inglês",
+            "title": "Bolo Inglês", 
             "description": "",
-            "ingredients": "",
+            "ingredients": "Que tal um bolo fofinho para o seu bruch? Consulte os sabores.",
             "Opção": [
             "500ml"
             ]

@@ -1,15 +1,19 @@
 {
   "bg": "/images/page/bg.jpg",
-  "title": "Fast! Frozen! Fit!",
+  "title": "Bem Vegana! Refeições saudáveis e congeladas no Rio de Janeiro!",
   "slogan": "Sempre uma opção saudável pra você!",
   "description": "",    
   "theme": {
     "bg": "/images/page/bg.jpg",
     "colors": {
-      "primary": "#AA0000",
-      "secondary": "#ff00cc",
+      "primary": "#DC5423",
+      "primaryDark": "#48231B",
+      "secondary": "#369512",
+      "secondaryDark": "#346900",
+      "gray":"#595959",
+      "lightGray":"#8BD787",
       "mainBg": "##fff",
-      "contrastText": "#ffffff",
+      "contrastText": "#DCD023",
       "mainText": "#000",
       "wrong": "#FF5722",
       "success": "#4CAF50"
