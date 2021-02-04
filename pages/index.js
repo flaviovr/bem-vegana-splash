@@ -12,7 +12,7 @@ import Container from '../src/components/Container';
 import Topo from '../src/components/Topo';
 import Widget from '../src/components/Widget';
 import Category from '../src/components/Category';
-import PecaJa from '../src/components/Pecaja';
+import PecaJa from '../src/components/PecaJa';
 
 
 export default function Home() {
