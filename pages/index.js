@@ -61,19 +61,16 @@ export default function Home() {
     <Background backgroundImage={config.bg}>
       <Head>
         <title>{config.title}</title>
-     
         <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Roboto+Slab:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet"></link>
         <meta property='og:image' content='https://bemvegana.vercel.app/images/page/logo-bem-vegana-g.png'></meta>
+        <meta property='og:description' content='{config.desc}'></meta>
+        <meta property='og:tite' content='{config.title}'></meta>
       </Head>
+
       <Container >
         
         <Logo className='teste' mode='center'/>
-        
-       
-
         <Category>Refeições<span>R$19,90</span></Category>
-
-
         {cardapio.cardapio.map((item)=>{
           return (
             <Widget key={item.num}>
