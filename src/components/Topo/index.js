@@ -6,10 +6,10 @@ import PropTypes from 'prop-types';
 
 import config from '../../../config.json';
 
-function Logo() {
+function Topo() {
   //console.log(SVG)
   return (
-    <LogoContainer>
+    <TopoContainer>
         <img src="/images/page/logo-bem-vegana.png"/>
         <div>
             <p className='gray'>
@@ -20,28 +20,35 @@ function Logo() {
               Faça já sua Encomenda!<br/>
               <a href="https://api.whatsapp.com/send?phone=5521967413954&text=Nova Encomenda!" target='_blank'>(21) 96741-3954</a>
             </p>
+            <div className="clear"></div>
         </div>
         <StylesPar>
           Refeição sustentável em todos os sentidos. Leve, cheia de fibras, proteínas vegetais, tudo isso preparado com os ingredientes naturais e temperos frescos. 
           O mínimo de calorias e gorduras com o máximo de sabor.Tudo prontinho e congelado em embalagens apropriadas para microondas, é só aquecer.
         </StylesPar>
-    </LogoContainer>
+    </TopoContainer>
   )
 
 }
 
 const StylesPar = styled.p`
   font-weight:700;
+  text-align:center;
     font-family:"Roboto Slab";
     font-size:18px;
     clear:both;
-    padding:25px 0px;
+  
     margin:25px 0px;
     @media screen and (max-width:780px) {
-      display:none;
+      font-size:16px;
+      
+    }
+    @media screen and (max-width:500px) {
+      font-size:14px;
+      font-weight:500;
     }
 `
-const LogoContainer = styled.div`
+const TopoContainer = styled.div`
   margin: 25px 0px;
   display:block;
 
@@ -50,9 +57,13 @@ const LogoContainer = styled.div`
     margin: 0 auto;
     width:300px;
     @media screen and (max-width:780px) {
+     
+      width:250px;
+    }
+    @media screen and (max-width:680px) {
       float:none;
       display:block;
-      
+    
     }
   }
   div {
@@ -60,9 +71,15 @@ const LogoContainer = styled.div`
     text-align:right;
     margin-top:55px;
     @media screen and (max-width:780px) {
+      
+      margin-top:35px;
+    }
+
+    @media screen and (max-width:680px) {
       float:none;
       display:block;
       text-align:center;
+      margin-top:20px;
     }
     .gray {
       
@@ -70,9 +87,9 @@ const LogoContainer = styled.div`
       font-size: 24px;
       font-weight: 500;
       line-height: 1;
-      color:${({ theme }) => theme.colors.gray};
+      color:${({ theme }) => theme.colors.mainBg};
       margin-bottom:20px;
-      
+      text-shadow: 2px 2px 4px rgba(0,0,0, 0.7);
     }
     .green {
       color:${({ theme }) => theme.colors.secondary};
@@ -85,9 +102,12 @@ const LogoContainer = styled.div`
         font-size: 34px;
       }
     }
+    .clear {
+      clear: both;
+    }
 
   }
 
 `;
 
-export default Logo;
+export default Topo;

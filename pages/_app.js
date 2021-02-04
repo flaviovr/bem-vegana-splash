@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     /* New styles */
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size:${({ theme }) => theme.fontSize};
    
     color: ${({ theme }) => theme.colors.mainText};
