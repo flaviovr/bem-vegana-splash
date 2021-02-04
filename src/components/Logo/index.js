@@ -36,6 +36,10 @@ const StylesPar = styled.p`
     font-size:18px;
     clear:both;
     padding:25px 0px;
+    margin:25px 0px;
+    @media screen and (max-width:780px) {
+      display:none;
+    }
 `
 const LogoContainer = styled.div`
   margin: 25px 0px;
@@ -45,14 +49,21 @@ const LogoContainer = styled.div`
     float:left;
     margin: 0 auto;
     width:300px;
-    /* @media screen and (max-width: 820px) {
-      width:200px;
-    } */
+    @media screen and (max-width:780px) {
+      float:none;
+      display:block;
+      
+    }
   }
   div {
     float:right;
     text-align:right;
     margin-top:55px;
+    @media screen and (max-width:780px) {
+      float:none;
+      display:block;
+      text-align:center;
+    }
     .gray {
       
       font-family: "Bungee";

@@ -18,7 +18,7 @@ import Container from '../src/components/Container';
     padding:15px;
     border-radius: ${({ theme }) => theme.borderRadius};
     font-family: 'Bungee Hairline';
-   clear:both;
+    clear:both;
     color:${({ theme }) => theme.colors.primary};
     line-height:1;
 

@@ -2,9 +2,11 @@ import styled from 'styled-components';
 
 const QuizBackground = styled.div`
   width: 100%;
-  background-repeat:no-repeat;
-  background-size: fixed;
-  background-position: top center ;
+  
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top right;
   background-image: url(${({ theme }) => theme.bg});
 
   background-color: ${({ theme }) => theme.colors.mainBg};
@@ -15,42 +17,7 @@ const QuizBackground = styled.div`
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH"; */
-  @media screen and (max-width: 820px) {
-    background-repeat:no-repeat;
-    background-size: fixed;
-    background-position:  right;
-    background-color:${({ theme }) => theme.colors.mainBg};
-    background-image:
-        /* linear-gradient(transparent, ${({ theme }) => theme.colors.mainBg}), */
-        url(${({ theme }) => theme.bg});
-    /* &:after {
-      content: "";
-      background-size: cover;
-      background-position: bottom center;
-      background-color:${({ theme }) => theme.colors.mainBg};
-      background-image:
-        linear-gradient(transparent, ${({ theme }) => theme.colors.mainBg}),
-        url('/images/bg2.jpg');
-      display: block;
-      width: 100%;
-    
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 1;
-      /* -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH"; 
-    }
-    *:first-child {
-      position: relative;
-      z-index: 10;
-    } */
-  }
+
 `;
 
 export default QuizBackground;
