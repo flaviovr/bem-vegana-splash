@@ -63,8 +63,8 @@ export default function Home() {
         <title>{config.title}</title>
         <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Roboto+Slab:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet"></link>
         <meta property='og:image' content='https://bemvegana.vercel.app/images/page/logo-bem-vegana-g.png'></meta>
-        <meta property='og:description' content='{config.desc}'></meta>
-        <meta property='og:tite' content='{config.title}'></meta>
+        <meta property='og:description' content={config.desc}></meta>
+        <meta property='og:tite' content={config.title}></meta>
       </Head>
 
       <Container >
