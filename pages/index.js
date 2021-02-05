@@ -76,6 +76,7 @@ export default function Home() {
         }
         <p>* Imagens meramente ilustrativas</p>
         <p>** Atuamos na cidade do Rio de Janeiro. Consulte os valores de entrega na sua região</p>
+        <p>*** 100% Plant based.</p>
       
         <PecaJa/>
      

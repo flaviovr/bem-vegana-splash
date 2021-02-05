@@ -45,7 +45,6 @@ const StylesPar = styled.p`
     }
     @media screen and (max-width:500px) {
       font-size:14px;
-      font-weight:500;
     }
 `
 const TopoContainer = styled.div`
