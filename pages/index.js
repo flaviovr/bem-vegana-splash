@@ -24,10 +24,14 @@ export default function Home() {
       <Head>
         <title>{config.title}</title>
         <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Roboto+Slab:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet"></link>
-        <meta property='og:image' content='https://bemvegana.vercel.app/images/page/logo-bem-vegana-fb-g.png'></meta>
-        <meta property='og:description' content={config.desc}></meta>
-        <meta property='og:title' content={config.title}></meta>
-        <meta property='og:url' content='https://bemvegana.vercel.app/'></meta>
+        <meta property='og:image' content='https://bemvegana.vercel.app/images/page/logo-bem-vegana-fb-g.png'/>
+        <meta property='og:description' content={config.desc}/>
+        <meta property='og:title' content={config.title}/>
+        <meta property='og:url' content='https://bemvegana.vercel.app/'/>
+        <meta property="og:site_name" content="Bem Vegana!"/>
+        <meta property="og:image:type" content="image/jpeg"/>
+        <meta property="og:image:width" content="800"/> 
+        <meta property="og:image:height" content="449"/> 
       </Head>
 
       <Container >
