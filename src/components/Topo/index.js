@@ -23,8 +23,7 @@ function Topo() {
             <div className="clear"></div>
         </div>
         <StylesPar>
-          Refeição sustentável em todos os sentidos. Leve, cheia de fibras, proteínas vegetais, tudo isso preparado com os ingredientes naturais e temperos frescos. 
-          O mínimo de calorias e gorduras com o máximo de sabor.Tudo prontinho e congelado em embalagens apropriadas para microondas, é só aquecer.
+          {config.desc}
         </StylesPar>
     </TopoContainer>
   )
