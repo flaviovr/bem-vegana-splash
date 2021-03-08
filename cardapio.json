@@ -44,7 +44,7 @@
             "num": "6",
             "image": "/images/refeicoes/6.jpg",
             "title": "Espaguete à Bolonhesa.",
-            "description": "Comprando outro prato sai a R$12,90",
+            "description": "Preço Promocional: R$12,90",
             "ingredients": "Massa tipo espaguete, com molho de tomate fresco, proteína de soja refogada com toque do nosso queijo parvegano.",
             "Opção": ["500ml"]
         }
@@ -55,7 +55,7 @@
             "image": "/images/sobremesas/2.jpg",
             "title": "Bolo na forma Inglesa",
             "description": "",
-            "ingredients": "Que tal um bolo fofinho para o seu bruch? <br>Sabores:  Aveia, maçã e canela / Aveia, banana e passas / Cacau com gotas de chocolate ao leite e amendoim(vegetariano).",
+            "ingredients": "Que tal um bolo fofinho para o seu bruch? Sabores:  Aveia, maçã e canela / Aveia, banana e passas / Cacau com gotas de chocolate ao leite e amendoim(vegetariano).",
             "Opção": ["500ml"]
         }
     ]
