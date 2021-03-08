@@ -1,71 +1,54 @@
 {
     "cardapio": [
-        
         {
-            "num":"1",
+            "num": "1",
             "image": "/images/refeicoes/1.jpg",
             "title": "Estrogonofe de Cogumelos frescos com berinjela",
             "description": "Acompanha arroz integral",
             "ingredients": "Cogumelos fresquinhos e escalopinhos de berinjela ao shoyo refogados com molho de tomate fresco e bechamel de aveia.",
-            "Opção": [
-            "250ml",
-            "500ml"
-            ]
+            "Opção": ["250ml", "500ml"]
         },
         {
-            "num":"2",
+            "num": "2",
             "image": "/images/refeicoes/2.jpg",
             "title": "Lasanha de Berinjela e Abobrinha recheada com Cogumelos e Soja ao molho bechamel e sugo",
             "description": "",
             "ingredients": "Deliciosas camadas abobrinha e berinjela recheadas com cogumelos frescos, proteína de soja, molho de tomate fresco, bechamel de aveia e parmesão de nuts.",
-            "Opção": [
-            "500ml"
-            ]
+            "Opção": ["500ml"]
         },
         {
-            "num":"3",
+            "num": "3",
             "image": "/images/refeicoes/3.jpg",
             "title": "Saladinha de Quinoa",
             "description": "",
-            "ingredients": "Uma salada completa de quinoa mista com:  maçã, gengibre, cenoura, alho poró, ervilha fresca, milho in natura cozido, pimentão, cheiro verde e parmesão de nuts.",
-            "Opção": [
-            "500ml"
-            ]
+            "ingredients": "Uma salada completa de quinoa mista com: passas, gengibre, cenoura, alho poró, ervilha fresca, milho in natura cozido, pimentão, cheiro verde e parmesão de nuts.",
+            "Opção": ["500ml"]
         },
         {
-            "num":"4",
+            "num": "4",
             "image": "/images/refeicoes/4.jpg",
             "title": "Quibe de abóbora recheado com cebola caramelizada",
             "description": "",
             "ingredients": "Quibe de abobora recheado com nossa receita especial de cebola caramelizada. Acompanha caponata de berinjela, abobrinha e tomates.",
-            "Opção": [
-            "500ml"
-            ]
+            "Opção": ["500ml"]
         },
         {
-            "num":"5",
+            "num": "5",
             "image": "/images/refeicoes/5.jpg",
             "title": "Escondidinho de Cogumelos Frescos e Soja",
             "description": "",
             "ingredients": "Purê de aipim com leite de coco pra ficar mais cremosinho recheado com cogumelos frescos e proteína de soja ao molho de tomate.",
-            "Opção": [
-            "500ml"
-            ]
+            "Opção": ["500ml"]
         }
-        
     ],
     "sobremesas": [
-        
-       
         {
-            "num":"2",
+            "num": "2",
             "image": "/images/sobremesas/2.jpg",
-            "title": "Bolo Inglês", 
+            "title": "Bolo Inglês",
             "description": "",
             "ingredients": "Que tal um bolo fofinho para o seu bruch? Consulte os sabores.",
-            "Opção": [
-            "500ml"
-            ]
+            "Opção": ["500ml"]
         }
     ]
 }
