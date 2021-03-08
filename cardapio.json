@@ -1,14 +1,6 @@
 {
     "cardapio": [
         {
-            "num": "6",
-            "image": "/images/refeicoes/6.jpg",
-            "title": "Espaguete à Bolonhesa.",
-            "description": "Comprando outro prato sai a R$12,90",
-            "ingredients": "Massa tipo espaguete, com molho de tomate fresco, proteína de soja refogada com toque do nosso queijo parvegano.",
-            "Opção": ["500ml"]
-        },
-        {
             "num": "1",
             "image": "/images/refeicoes/1.jpg",
             "title": "Estrogonofe de Cogumelos frescos com berinjela",
@@ -29,7 +21,7 @@
             "image": "/images/refeicoes/3.jpg",
             "title": "Saladinha de Quinoa",
             "description": "",
-            "ingredients": "Uma salada completa de quinoa mista com: passas, gengibre, cenoura, alho poró, ervilha fresca, milho in natura cozido, pimentão, cheiro verde e parmesão de nuts.",
+            "ingredients": "Uma salada completa de quinoa mista com: cenoura, alho poró, ervilha fresca, milho in natura cozido, pimentão, passas, gengibre, cheiro verde e parmesão de nuts.",
             "Opção": ["500ml"]
         },
         {
@@ -47,15 +39,23 @@
             "description": "",
             "ingredients": "Purê de aipim com leite de coco pra ficar mais cremosinho recheado com cogumelos frescos e proteína de soja ao molho de tomate.",
             "Opção": ["500ml"]
+        },
+        {
+            "num": "6",
+            "image": "/images/refeicoes/6.jpg",
+            "title": "Espaguete à Bolonhesa.",
+            "description": "Comprando outro prato sai a R$12,90",
+            "ingredients": "Massa tipo espaguete, com molho de tomate fresco, proteína de soja refogada com toque do nosso queijo parvegano.",
+            "Opção": ["500ml"]
         }
     ],
     "sobremesas": [
         {
             "num": "2",
             "image": "/images/sobremesas/2.jpg",
-            "title": "Bolo Inglês",
+            "title": "Bolo na forma Inglesa",
             "description": "",
-            "ingredients": "Que tal um bolo fofinho para o seu bruch? Consulte os sabores.",
+            "ingredients": "Que tal um bolo fofinho para o seu bruch? Sabores:  Aveia, maçã e canela / Aveia, banana e passas / Cacau com gotas de chocolate ao leite e amendoim(vegetariano).",
             "Opção": ["500ml"]
         }
     ]
