@@ -27,7 +27,7 @@
     {
       "num": "4",
       "image": "/images/refeicoes/4.jpg",
-      "title": "Quibe de abóbora recheado com ricota temperada.",
+      "title": "Quibe de abóbora recheado com ricota temperada",
       "description": "** Vegetariano **",
       "ingredients": "Quibe de abobora recheado com nossa receita especial de ricota temperada. Acompanha caponata de berinjela, abobrinha e tomates.",
       "Opção": ["500ml"]
@@ -43,7 +43,7 @@
     {
       "num": "6",
       "image": "/images/refeicoes/6.jpg",
-      "title": "Espaguete à Bolonhesa.",
+      "title": "Espaguete à Bolonhesa",
       "description": "Preço Promocional: R$12,90",
       "ingredients": "Massa tipo espaguete, com molho de tomate fresco, proteína de soja refogada com toque do nosso queijo parvegano.",
       "Opção": ["500ml"]
@@ -51,7 +51,7 @@
     {
       "num": "7",
       "image": "/images/refeicoes/7.jpg",
-      "title": "Almôndega de soja recheada com azeitona e molho de tomate natural.",
+      "title": "Almôndega de soja recheada com azeitona e molho de tomate natural",
       "description": "Preço Promocional: R$12,90",
       "ingredients": "Suculentas almôndegas de proteína de soja e legumes recheada de azeitona com nosso delicioso molho de tomate fresco e natural.",
       "Opção": ["500ml"]
@@ -60,7 +60,7 @@
     {
       "num": "8",
       "image": "/images/refeicoes/8.jpg",
-      "title": "Hamburguer.",
+      "title": "Hamburguer",
       "description": "Bandeja com 8 unidades",
       "ingredients": "Hamburgue de soja com legumes (110g) para você fritar/assar para você montar do jeito que você gosta. Com o burger congelado, frite no no azeite em frigideira antiaderente tampada em fogo médio/baixo por 4min de cada lado ou até dourar.",
       "Opção": ["500ml"]
