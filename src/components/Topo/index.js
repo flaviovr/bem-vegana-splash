@@ -12,8 +12,8 @@ function Topo() {
       <img src="/images/page/logo-bem-vegana.png" />
       <div>
         <p className="gray">
-          Atuamos em todo <br />
-          Rio de Janeiro!
+          Atuamos na região da <br />
+          Av. Paulista! Confira.
         </p>
         <p className="green">
           Faça já sua Encomenda!
