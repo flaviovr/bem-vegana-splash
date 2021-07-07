@@ -72,7 +72,7 @@ export default function Home() {
         })}
         <p>* Imagens meramente ilustrativas</p>
         <p>
-          ** Atuamos na região da Av. Paulista! . Consulte os valores de entrega
+          ** Atuamos na região da Av. Paulista. Consulte os valores de entrega
           na sua região
         </p>
 

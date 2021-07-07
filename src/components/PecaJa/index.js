@@ -5,8 +5,8 @@ export default function PecaJa() {
   return (
     <PecaJaContainer>
       <p className="gray">
-        Atuamos em todo <br />
-        Rio de Janeiro!
+        Atuamos na região da <br />
+        Av. Paulista. Confira!
       </p>
       <p className="green">
         Faça já sua Encomenda!

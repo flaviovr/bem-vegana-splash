@@ -13,7 +13,7 @@ function Topo() {
       <div>
         <p className="gray">
           Atuamos na região da <br />
-          Av. Paulista! Confira.
+          Av. Paulista. Confira!
         </p>
         <p className="green">
           Faça já sua Encomenda!
