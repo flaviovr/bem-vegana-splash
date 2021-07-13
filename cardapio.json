@@ -44,7 +44,7 @@
       "num": "6",
       "image": "/images/refeicoes/6.jpg",
       "title": "Espaguete à Bolonhesa",
-      "description": "Preço Promocional: R$12,90",
+      "description": "",
       "ingredients": "Massa tipo espaguete, com molho de tomate fresco, proteína de soja refogada com toque do nosso queijo parvegano.",
       "Opção": ["500ml"]
     },
@@ -52,7 +52,7 @@
       "num": "7",
       "image": "/images/refeicoes/7.jpg",
       "title": "Almôndega de soja recheada com azeitona e molho de tomate natural",
-      "description": "Preço Promocional: R$12,90",
+      "description": "",
       "ingredients": "Suculentas almôndegas de proteína de soja e legumes recheada de azeitona com nosso delicioso molho de tomate fresco e natural.",
       "Opção": ["500ml"]
     },
