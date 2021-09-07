@@ -5,17 +5,18 @@ export default function PecaJa() {
   return (
     <PecaJaContainer>
       <p className="gray">
-        Atuamos na região da <br />
-        Av. Paulista. Confira!
+        Entregas em Volta Redonda e Barra
+        <br />
+        Mansa. Confira Taxa de Entrega!
       </p>
       <p className="green">
         Faça já sua Encomenda!
         <br />
         <a
-          href="https://api.whatsapp.com/send?phone=5521967413954&text=Nova Encomenda!"
+          href="https://api.whatsapp.com/send?phone=5524999928071&text=Nova Encomenda!"
           target="_blank"
         >
-          (11) 95346-1654
+          (24) 99992-8071
         </a>
       </p>
     </PecaJaContainer>

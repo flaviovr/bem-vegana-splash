@@ -72,8 +72,7 @@ export default function Home() {
         })}
         <p>* Imagens meramente ilustrativas</p>
         <p>
-          ** Atuamos na região da Av. Paulista. Consulte os valores de entrega
-          na sua região
+          ** Entregas em Volta Redonda e Barra Mansa. Confira Taxa de Entrega!
         </p>
 
         <PecaJa />

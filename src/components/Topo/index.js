@@ -12,8 +12,9 @@ function Topo() {
       <img src="/images/page/logo-bem-vegana.png" />
       <div>
         <p className="gray">
-          Atuamos na região da <br />
-          Av. Paulista. Confira!
+          Entregas em Volta Redonda e Barra
+          <br />
+          Mansa. Confira Taxa de Entrega!
         </p>
         <p className="green">
           Faça já sua Encomenda!
@@ -22,7 +23,7 @@ function Topo() {
             href="https://api.whatsapp.com/send?phone=11953461654&text=Nova Encomenda!"
             target="_blank"
           >
-            (11) 95346-1654
+            (24) 99992-8071
           </a>
         </p>
         <div className="clear"></div>
