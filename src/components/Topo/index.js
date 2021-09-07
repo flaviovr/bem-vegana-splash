@@ -20,7 +20,7 @@ function Topo() {
           Faça já sua Encomenda!
           <br />
           <a
-            href="https://api.whatsapp.com/send?phone=11953461654&text=Nova Encomenda!"
+            href="https://api.whatsapp.com/send?phone=24999928071&text=Nova Encomenda!"
             target="_blank"
           >
             (24) 99992-8071
